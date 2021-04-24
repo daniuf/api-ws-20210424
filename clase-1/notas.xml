@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notas>
+ <nota>
+  <para>Tove</para>
+  <de>Jani</de>
+  <titulo>Reminder</titulo>
+  <mensaje>Don't forget me this weekend!</mensaje>
+  <nombre_usuario>jani.usuario</nombre_usuario>
+  <fecha>2021-04-10</fecha>
+ </nota>
+ <nota>
+  <para>Pepe</para>
+  <de>Juan</de>
+  <titulo>No te olvides</titulo>
+  <mensaje>Acordate de ...</mensaje>
+  <nombre_usuario>pepe</nombre_usuario>
+  <fecha>2021-04-17</fecha>
+ </nota>
+ <nota>
+  <para>Juana</para>
+  <de>Juan</de>
+  <titulo>Reminder2</titulo>
+  <mensaje>Recorda....</mensaje>
+  <nombre_usuario>juan.usuario</nombre_usuario>
+  <fecha>2021-04-24</fecha>
+ </nota>
+</notas>
