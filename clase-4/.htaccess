@@ -1,0 +1,15 @@
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_METHOD} =DELETE
+RewriteRule ^borrarUsuario/([0-9A-Za-z]+)$	deleteUsuario.php?id=$1 [END]
+
+RewriteCond %{REQUEST_METHOD} =PUT
+RewriteRule ^actualizarUsuario/([0-9A-Za-z]+)$	actualizarUsuario.php?id=$1 [END]
+
+RewriteCond %{REQUEST_METHOD} =GET
+RewriteRule ^getUsuarios$			getUsuarios.php [END]
+RewriteRule ^usuario/([0-9A-Za-z]+)$		getUsuario.php?id=$1 [END]
+
+RewriteCond %{REQUEST_METHOD} =POST
+RewriteRule ^crearUsuario$			crearUsuario.php [END]
